@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/p-chan/itsumono/compare/v0.3.2...v0.4.0) (2022-02-05)
+
+
+### Features
+
+* next を追加 ([5cf6bde](https://github.com/p-chan/itsumono/commit/5cf6bde97739badc537df529c2fdc6323fd2a2c7))
+* yarn add するときにバージョンを固定する ([0bdb1c1](https://github.com/p-chan/itsumono/commit/0bdb1c1be42301a6804754b88cc23f959c59bf61))
+
 ### [0.3.2](https://github.com/p-chan/itsumono/compare/v0.3.1...v0.3.2) (2022-02-05)
 
 
