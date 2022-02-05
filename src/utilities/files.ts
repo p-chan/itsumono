@@ -10,12 +10,16 @@ export const getPackageJson = async () => {
 }
 
 export const format = async (text: string, parser: RequiredOptions['parser']) => {
-  const options = await prettier.resolveConfig(resolve(process.cwd(), '.prettierrc'))
+  const configFilePath = await prettier.resolveConfigFile()
 
-  if (options == undefined) throw new Error('.prettierrc is not found')
+  if (configFilePath == undefined) return prettier.format(text, { parser })
+
+  const configOptions = await prettier.resolveConfig(configFilePath)
+
+  if (configOptions == undefined) throw new Error('prettier config is invalid')
 
   return prettier.format(text, {
     parser,
-    ...options,
+    ...configOptions,
   })
 }
