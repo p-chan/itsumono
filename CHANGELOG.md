@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/p-chan/itsumono/compare/v0.2.0...v0.3.0) (2022-02-05)
+
+
+### Features
+
+* prettierrc を prettier に変更 ([a9b9a46](https://github.com/p-chan/itsumono/commit/a9b9a464f12f93e8374a7ce55c2c7bb0f453b79b))
+* typescript を追加 ([051b3bf](https://github.com/p-chan/itsumono/commit/051b3bf93cc6119268711863f91473984c68ff8d))
+
 ## [0.2.0](https://github.com/p-chan/itsumono/compare/v0.1.1...v0.2.0) (2022-02-05)
 
 
