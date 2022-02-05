@@ -9,7 +9,7 @@ type Options = {
 
 export const typescript = async (_: Options) => {
   try {
-    shell.exec('yarn add typescript @stardust-configs/tsconfig -D')
+    shell.exec('yarn add typescript @stardust-configs/tsconfig -D -E')
 
     const tsconfig = await readFile(resolve(__dirname, '../templates/tsconfig.mustache'), 'utf-8')
 

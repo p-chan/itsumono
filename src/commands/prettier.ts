@@ -11,7 +11,7 @@ type Options = {
 
 export const prettier = async (_: Options) => {
   try {
-    shell.exec('yarn add prettier @stardust-configs/prettier-config -D')
+    shell.exec('yarn add prettier @stardust-configs/prettier-config -D -E')
 
     const packageJson = await getPackageJson()
 

@@ -11,7 +11,7 @@ type Options = {
 
 export const versionrc = async (_: Options) => {
   try {
-    shell.exec('yarn add standard-version -D')
+    shell.exec('yarn add standard-version -D -E')
 
     const packageJson = await getPackageJson()
 
