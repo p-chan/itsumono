@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.2](https://github.com/p-chan/itsumono/compare/v0.3.1...v0.3.2) (2022-02-05)
+
+
+### Bug Fixes
+
+* standard を stardust に修正 ([f1aed08](https://github.com/p-chan/itsumono/commit/f1aed088632a1805614b59f9884b72023dba3d6b))
+
 ### [0.3.1](https://github.com/p-chan/itsumono/compare/v0.3.0...v0.3.1) (2022-02-05)
 
 
