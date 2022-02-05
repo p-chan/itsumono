@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.1](https://github.com/p-chan/itsumono/compare/v0.3.0...v0.3.1) (2022-02-05)
+
+
+### Bug Fixes
+
+* prettier のテンプレートのファイル名を修正 ([0a36829](https://github.com/p-chan/itsumono/commit/0a36829169bbed1780a83b64fb88ae652c3b5a20))
+* prettier の設定が見つからない場合のエラー処理を追加 ([bb68a34](https://github.com/p-chan/itsumono/commit/bb68a341a9240f43d7dcee6b44f66199a053865e))
+
 ## [0.3.0](https://github.com/p-chan/itsumono/compare/v0.2.0...v0.3.0) (2022-02-05)
 
 
