@@ -12,7 +12,7 @@ type Options = {
 export const next = async (_: Options) => {
   try {
     shell.exec('yarn add react react-dom next -E')
-    shell.exec('yarn add @types/react @types/react-dom -D -E')
+    shell.exec('yarn add @types/react @types/react-dom @types/node -D -E')
 
     const packageJson = await getPackageJson()
 
