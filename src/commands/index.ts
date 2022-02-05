@@ -1,5 +1,6 @@
 export * from './gitignore'
 export * from './init'
+export * from './next'
 export * from './prettier'
 export * from './typescript'
 export * from './versionrc'
