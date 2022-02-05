@@ -9,7 +9,7 @@ type Options = {
   '--': any[]
 }
 
-export const prettierrc = async (_: Options) => {
+export const prettier = async (_: Options) => {
   try {
     shell.exec('yarn add prettier @standard-configs/prettier-config -D')
 
@@ -26,7 +26,7 @@ export const prettierrc = async (_: Options) => {
       'utf-8'
     )
 
-    const prettierrc = await readFile(resolve(__dirname, '../templates/prettierrc.mustache'), 'utf-8')
+    const prettierrc = await readFile(resolve(__dirname, '../templates/prettier.mustache'), 'utf-8')
 
     await writeFile(resolve(process.cwd(), '.prettierrc'), render(prettierrc, {}), 'utf-8')
   } catch (error) {
