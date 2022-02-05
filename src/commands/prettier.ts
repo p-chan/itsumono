@@ -26,7 +26,7 @@ export const prettier = async (_: Options) => {
       'utf-8'
     )
 
-    const prettierrc = await readFile(resolve(__dirname, '../templates/prettier.mustache'), 'utf-8')
+    const prettierrc = await readFile(resolve(__dirname, '../templates/prettierrc.mustache'), 'utf-8')
 
     await writeFile(resolve(process.cwd(), '.prettierrc'), render(prettierrc, {}), 'utf-8')
   } catch (error) {
