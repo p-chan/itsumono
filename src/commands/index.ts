@@ -1,4 +1,5 @@
 export * from './gitignore'
+export * from './init'
 export * from './prettierrc'
 export * from './versionrc'
 export * from './yarnrc'
