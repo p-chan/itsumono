@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/p-chan/itsumono/compare/v0.4.0...v0.4.1) (2022-04-14)
+
+
+### Bug Fixes
+
+* next で @types/node をインストールする ([6ec3653](https://github.com/p-chan/itsumono/commit/6ec365343d15ef1df45b5c6b11388afeb1badda8))
+
 ## [0.4.0](https://github.com/p-chan/itsumono/compare/v0.3.2...v0.4.0) (2022-02-05)
 
 
