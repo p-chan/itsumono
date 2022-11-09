@@ -79,7 +79,7 @@ export const init = async (_: Options) => {
       await prompts({
         type: 'text',
         name: 'value',
-        message: 'license',
+        message: 'author',
         initial: 'P-Chan',
       })
     ).value as string | undefined
